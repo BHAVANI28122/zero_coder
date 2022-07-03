@@ -1,0 +1,448 @@
+.header{
+    background-color:#f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    padding:30px 33px ;
+}
+.zerocode-logo{
+    width: 284;
+    height: 60px;
+    object-fit: contain;
+}
+.zerocode-logo img{
+    height: 100%;
+}
+
+.registration-button{
+    text-decoration: none;
+    color:#fff;
+    padding:13px 22px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #ee2f34;
+    font: inter;
+    font-weight: bold;
+    font-size: 20px;
+}
+.comp-date{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-weight:bolder;
+    font-size: 20px;
+}
+/*----------------header---------*/
+.BestZeroCoder{
+    text-align: center;
+    padding:75px 0px;
+}
+.zerocoder{
+    color: #ee2f34;
+}
+.BZC-font p{
+    color:#000;
+    font-size: 50px;
+    font:poppins;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+}
+/*---------------section1-------*/
+.img-and-text{
+    display: flex;
+    max-width:80%;
+    margin: 0 auto;
+
+}
+.column-img{
+    flex-basis:50%;
+    width:650px;
+    height: 550px;
+    justify-content: center;
+}
+.column-img img{
+    height: 100%;
+}
+.column-text{
+    font: poppins;
+    font-size: 28px;
+    line-height :1.8em;
+    justify-self:left;
+    padding: 0px 0px 0px 30px;
+    margin: 30px 0px;
+}
+.column-text ul li{
+    list-style-position: outside;
+    padding-left: 25px;
+}
+.prizebox-and-text{
+    display:flex;
+    position: relative;
+    background-color:#ee2f34;
+    margin: 30px 0;
+}
+.prizebox-and-text p{
+    color: #fff;
+    font-size: 27px;
+    font:Roboto;
+    font-weight:bold;
+    background-color:#ee2f34;
+    margin: 0px 0px;
+    padding: 12px 18px;
+   
+}
+.pizebox-and-text img{
+    height:100%;
+}
+.prize-box{
+    position:absolute;
+    width: 200px;
+    height:150px;
+    left: 410px;
+    bottom: -25px;
+    margin: 0%;
+}
+/*----------------------section2---------*/
+.dates{
+    background-color: black;
+    color: #fff;
+}
+.important-dates{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 50px 0px;
+}
+.column-dates{
+    flex-basis: 33.33%;
+}
+.column-dates img{
+    height: auto;
+    width: 120px;
+   float: left;
+   padding: 30px 20px;
+
+}
+.column-dates h3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.bw{
+    color: rgb(173, 167, 167);
+    padding-left: 60px;
+}
+.space{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+    margin: 0px 0px;
+}
+/*----------------dates----------*/
+.backg{
+    background-color: red;
+}
+.backw{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    padding:50px 0px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+}
+.image{
+    flex-basis: 30%;
+    align-self: center;
+}
+.two-rows{
+    flex-basis: 65%;
+   
+}
+.row1{
+    display: flex;
+    justify-content:left;
+    line-height: 20px;
+}
+.col,img,p{
+    text-align:left;
+    padding:0px 30px
+
+}
+.col:first-child{
+    padding-left: 0px;
+}
+.col{
+    flex-basis: 35%;
+    border-bottom: 1px solid #f26268;
+    border-right: 1px solid #f26268;
+}
+.col:last-child{
+    border-right: none;
+}
+.col img{
+    object-fit: contain;
+}
+.row2{
+    display: flex;
+    justify-content: left;
+    
+}
+.col1{
+    flex-basis: 45%;
+    border-right: 1px solid #f26268;
+}
+.col1:last-child{
+    border-right: none;
+}
+.col1 img{
+    float:left;
+}
+.col1,img,p{
+    padding: 0px 0px;
+}
+.col1:first-child{
+     padding-left: 0px;
+}
+.col1 img{
+    padding-top: 30px;
+}
+.txt p{
+    font-size: 40px;
+    font-weight: bolder;
+    margin:0px 0px 40px 0px;
+    padding-left: 0px;
+}
+.fchange{
+    font-size: 25px;
+    font-weight: bold;
+}
+.fochange{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.fonchange{
+    font-size: 25px;
+    margin: 0px 0px;
+}
+.fontchange{
+    font-size: 35px;
+    font-weight: bold;
+    margin:50px 0px 0px 0px;
+}
+/*--------------prize-money-------*/
+.reg-info{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color:f8f8f8;
+}
+.registration-fee{
+    border: 0.5px solid red;
+    margin: 80px 0px;
+    padding: 2px 60px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;;
+}
+#font20{
+    margin: 0%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#num-size{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0%;
+}
+#grey{
+    color: rgb(99, 94, 94);
+}
+.text-and-img{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.zerocode-works{
+    flex-basis: 50%;
+    justify-content: left;
+    font-size: 25px;
+}
+.zerocode-works ul li{
+    list-style-position: outside;
+    padding-left: 20px;
+}
+#font-change{
+    font-size: 40px;
+    font-weight: bold;
+}
+.red{
+    color: red;
+}
+.coding-img{
+    flex-basis: 50%;
+    height: 100%;
+    padding-top: 30px;
+}
+.coding-img img{
+    width: 580px;
+    height: 420px;
+}
+/*-----------BZC----------*/
+.width{
+    width: 100%;
+    border-top: 6px solid rgb(206, 207, 237); 
+    margin: 20px 0px; 
+}
+.participation-info{
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 0px;
+}
+.circle-logo{
+    flex: 50%;
+    justify-content: center;
+}
+.circle-logo img{
+    width: 320px;
+    height:auto;
+}
+.participation-text{
+    font-size:40px ;
+}
+.participation-text ul li{
+    font-size:25px;
+    padding-left: 20px;
+}
+/*----------------participation----------*/
+.center-text{
+    background-color: #ee2f34;
+    display: flex;
+}
+.center-text p{
+    max-width: 80%;
+    margin:0 auto;
+    font-size:20px;
+    color: #fff;
+    padding: 10px;
+    justify-content:center ;
+}
+/*-------------center-text-------*/
+.eval-bg{
+    background-color:#bdc0d2;
+    margin: 0 0;
+}
+.eval-width{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.evaluation{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: left;
+    margin: 0 0;
+    padding: 10px;
+}
+.criteria{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    text-align: left;
+    font-size: 25px;
+}
+.criteria img{
+    height: 110;
+    width: 120px;
+    float: left;
+    padding: 15px 20px;
+
+}
+.crita p{
+    padding-top: 15px;
+}
+.crita{
+    flex: 27%;
+    padding-bottom: 50px;
+}
+/*-------------crita-----------*/
+.images{
+    background-color: #fff;
+}
+.image-seque{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    text-align: left;
+    padding: 50px 0px;
+}
+.image-seque img{
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+.size{
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.img-line img{
+    object-fit: contain;
+}
+.img-line{
+    width: 75%;
+    margin:auto;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.dabba{
+    box-shadow: -5px 0 5px -5px #646565;
+    width: 120px;
+    height: 50px;
+    padding: 20px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+/*--------------images-------------*/
+.bottom{
+    background-color: #000;
+    font-size: 25px;
+    color: #fff;
+}
+.bottom-width{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 50px 0px;
+}
+.icons fa{
+    width: 50px;
+    height: auto;
+}
+/*---------------footer------------*/
+.footerbg{
+    background-color: black;
+    margin: 0 0;
+}
+.footerwdth{
+    width: 90%;
+    margin: auto;
+    color: #fff;
+}
+.headding{
+    padding: 40px 0px;
+}
+.footerrow{
+    display: flex;
+}
+.col2{
+    flex-basis: 30%;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+#fa{
+   padding: 30px 10px;
+}
+#fa:first-child{
+    padding-left: 0px;
+}
